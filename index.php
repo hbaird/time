@@ -14,7 +14,7 @@
 <body class="<?php echo $class ?>">
 
     <h1>
-    It is <?php echo $hour; ?>:<?php echo $minute; echo $current; ?>.
+    It is <?php echo $time; ?>.
     </h1>
 
     <small>Time zone: America/New_York;</small><br>
