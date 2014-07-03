@@ -11,7 +11,7 @@
 
 </head>
 
-<body class="<?php echo $class ?>">
+<body class="<?php echo $time_of_day ?>">
 
     <h1>
     It is <?php echo $time; ?>.
@@ -19,7 +19,7 @@
 
     <small>Time zone: America/New_York;</small><br>
 
-    <img src="http://making-the-internet.s3.amazonaws.com/php-<?php echo $image ?>.png"<?php echo $image; ?>' alt='Scenery matching the time of day'>
+    <img src="http://making-the-internet.s3.amazonaws.com/php-<?php echo $time_of_day ?>.png" alt='Scenery matching the time of day'>
 
 </body>
 </html>

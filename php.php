@@ -5,24 +5,20 @@ date_default_timezone_set ('America/New_York');
 $time = date('g:ia');
 $hour = date('G');
 
-$class = '';
+$time_of_day ='';
 
 if ($hour >= 5 && $hour < 11) {
-	$image = 'morning';	
-	$class = "morning";
+	$time_of_day = 'morning';
 }
 elseif ($hour >= 11 && $hour < 16) {
-	$image = 'afternoon';
-	$class = "afternoon";
+	$time_of_day = 'afternoon';
 }
 	
 elseif ($hour >= 16 && $hour < 20) {
-	$image = 'evening';
-	$class = "evening";
+	$time_of_day = 'evening';
 }
 else {
-	$image = 'night';
-	$class = "night";
+	$time_of_day = 'night';
 }
 
 ?>
