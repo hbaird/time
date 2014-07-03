@@ -8,22 +8,21 @@ $hour = date('G');
 $class = '';
 
 if ($hour >= 5 && $hour < 11) {
-	$image = "http://making-the-internet.s3.amazonaws.com/php-morning.png";	
+	$image = 'morning';	
 	$class = "morning";
 }
 elseif ($hour >= 11 && $hour < 16) {
-	$image = "http://making-the-internet.s3.amazonaws.com/php-afternoon.png";
+	$image = 'afternoon';
 	$class = "afternoon";
 }
 	
 elseif ($hour >= 16 && $hour < 20) {
-	$image = "http://making-the-internet.s3.amazonaws.com/php-evening.png";
+	$image = 'evening';
 	$class = "evening";
 }
 else {
-	$image = "http://making-the-internet.s3.amazonaws.com/php-night.png";
+	$image = 'night';
 	$class = "night";
 }
-
 
 ?>

@@ -19,7 +19,7 @@
 
     <small>Time zone: America/New_York;</small><br>
 
-    <img src='<?php echo $image; ?>' alt='Scenery matching the time of day'>
+    <img src="http://making-the-internet.s3.amazonaws.com/php-<?php echo $image ?>.png"<?php echo $image; ?>' alt='Scenery matching the time of day'>
 
 </body>
 </html>
